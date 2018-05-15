@@ -21,6 +21,7 @@ baseurl: ""
 url: "https://www.arsonistsunion.org"
 twitter_username: ArsonistsUnion
 github_username:  ArsonistsUnion
+google_analytics: UA-119263884-1
 
 # Build settings
 markdown: kramdown
