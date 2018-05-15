@@ -22,6 +22,7 @@ url: "https://www.arsonistsunion.org"
 twitter_username: ArsonistsUnion
 github_username:  ArsonistsUnion
 google_analytics: UA-119263884-1
+logo: /assets/arsonists-union-logo.png
 
 # Build settings
 markdown: kramdown
