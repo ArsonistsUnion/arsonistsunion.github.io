@@ -1,0 +1,52 @@
+---
+# dashes to generate file
+---
+
+body {
+	background-color: #B9E5FB;
+}
+
+div.radiance {
+	background:  url(/assets/radiance.svg) no-repeat top center;
+	background-size: cover;
+	min-height: 100%;
+}
+
+img.radiance {
+    position: top fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+img.ribbon {
+	margin-top: -15%;
+	margin-bottom: -15%;
+}
+
+img.tagline {
+	margin-top: -10%;
+	margin-bottom: -10%;
+}
+
+img.date-time {
+	margin-top: -20%;
+}
+
+img.buy-tickets {
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
